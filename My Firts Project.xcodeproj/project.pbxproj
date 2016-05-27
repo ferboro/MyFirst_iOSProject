@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C115AC4E1CF90EE900F32B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC4D1CF90EE900F32B53 /* main.m */; };
+		C115AC511CF90EE900F32B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC501CF90EE900F32B53 /* AppDelegate.m */; };
+		C115AC541CF90EE900F32B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC531CF90EE900F32B53 /* ViewController.m */; };
+		C115AC571CF90EE900F32B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C115AC551CF90EE900F32B53 /* Main.storyboard */; };
+		C115AC5A1CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C115AC581CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld */; };
+		C115AC5C1CF90EE900F32B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C115AC5B1CF90EE900F32B53 /* Assets.xcassets */; };
+		C115AC5F1CF90EE900F32B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C115AC5D1CF90EE900F32B53 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C115AC491CF90EE900F32B53 /* My Firts Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Firts Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C115AC4D1CF90EE900F32B53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C115AC4F1CF90EE900F32B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C115AC501CF90EE900F32B53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C115AC521CF90EE900F32B53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C115AC531CF90EE900F32B53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C115AC561CF90EE900F32B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C115AC591CF90EE900F32B53 /* My_Firts_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Firts_Project.xcdatamodel; sourceTree = "<group>"; };
+		C115AC5B1CF90EE900F32B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C115AC5E1CF90EE900F32B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C115AC601CF90EE900F32B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C115AC461CF90EE900F32B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C115AC401CF90EE900F32B53 = {
+			isa = PBXGroup;
+			children = (
+				C115AC4B1CF90EE900F32B53 /* My Firts Project */,
+				C115AC4A1CF90EE900F32B53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C115AC4A1CF90EE900F32B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C115AC491CF90EE900F32B53 /* My Firts Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C115AC4B1CF90EE900F32B53 /* My Firts Project */ = {
+			isa = PBXGroup;
+			children = (
+				C115AC4F1CF90EE900F32B53 /* AppDelegate.h */,
+				C115AC501CF90EE900F32B53 /* AppDelegate.m */,
+				C115AC521CF90EE900F32B53 /* ViewController.h */,
+				C115AC531CF90EE900F32B53 /* ViewController.m */,
+				C115AC551CF90EE900F32B53 /* Main.storyboard */,
+				C115AC5B1CF90EE900F32B53 /* Assets.xcassets */,
+				C115AC5D1CF90EE900F32B53 /* LaunchScreen.storyboard */,
+				C115AC601CF90EE900F32B53 /* Info.plist */,
+				C115AC581CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld */,
+				C115AC4C1CF90EE900F32B53 /* Supporting Files */,
+			);
+			path = "My Firts Project";
+			sourceTree = "<group>";
+		};
+		C115AC4C1CF90EE900F32B53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C115AC4D1CF90EE900F32B53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C115AC481CF90EE900F32B53 /* My Firts Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C115AC631CF90EE900F32B53 /* Build configuration list for PBXNativeTarget "My Firts Project" */;
+			buildPhases = (
+				C115AC451CF90EE900F32B53 /* Sources */,
+				C115AC461CF90EE900F32B53 /* Frameworks */,
+				C115AC471CF90EE900F32B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Firts Project";
+			productName = "My Firts Project";
+			productReference = C115AC491CF90EE900F32B53 /* My Firts Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C115AC411CF90EE900F32B53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fer;
+				TargetAttributes = {
+					C115AC481CF90EE900F32B53 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C115AC441CF90EE900F32B53 /* Build configuration list for PBXProject "My Firts Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C115AC401CF90EE900F32B53;
+			productRefGroup = C115AC4A1CF90EE900F32B53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C115AC481CF90EE900F32B53 /* My Firts Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C115AC471CF90EE900F32B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C115AC5F1CF90EE900F32B53 /* LaunchScreen.storyboard in Resources */,
+				C115AC5C1CF90EE900F32B53 /* Assets.xcassets in Resources */,
+				C115AC571CF90EE900F32B53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C115AC451CF90EE900F32B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C115AC5A1CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld in Sources */,
+				C115AC541CF90EE900F32B53 /* ViewController.m in Sources */,
+				C115AC511CF90EE900F32B53 /* AppDelegate.m in Sources */,
+				C115AC4E1CF90EE900F32B53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C115AC551CF90EE900F32B53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C115AC561CF90EE900F32B53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C115AC5D1CF90EE900F32B53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C115AC5E1CF90EE900F32B53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C115AC611CF90EE900F32B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C115AC621CF90EE900F32B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C115AC641CF90EE900F32B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Firts Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uag.My-Firts-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C115AC651CF90EE900F32B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Firts Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uag.My-Firts-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C115AC441CF90EE900F32B53 /* Build configuration list for PBXProject "My Firts Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C115AC611CF90EE900F32B53 /* Debug */,
+				C115AC621CF90EE900F32B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C115AC631CF90EE900F32B53 /* Build configuration list for PBXNativeTarget "My Firts Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C115AC641CF90EE900F32B53 /* Debug */,
+				C115AC651CF90EE900F32B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C115AC581CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C115AC591CF90EE900F32B53 /* My_Firts_Project.xcdatamodel */,
+			);
+			currentVersion = C115AC591CF90EE900F32B53 /* My_Firts_Project.xcdatamodel */;
+			path = My_Firts_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C115AC411CF90EE900F32B53 /* Project object */;
+}
