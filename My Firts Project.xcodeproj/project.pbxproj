@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		C115AC4E1CF90EE900F32B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC4D1CF90EE900F32B53 /* main.m */; };
 		C115AC511CF90EE900F32B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC501CF90EE900F32B53 /* AppDelegate.m */; };
-		C115AC541CF90EE900F32B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC531CF90EE900F32B53 /* ViewController.m */; };
-		C115AC571CF90EE900F32B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C115AC551CF90EE900F32B53 /* Main.storyboard */; };
+		C115AC541CF90EE900F32B53 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = C115AC531CF90EE900F32B53 /* Start.m */; };
+		C115AC571CF90EE900F32B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C115AC551CF90EE900F32B53 /* Main.storyboard */; settings = {ASSET_TAGS = (label, ); }; };
 		C115AC5A1CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C115AC581CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld */; };
 		C115AC5C1CF90EE900F32B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C115AC5B1CF90EE900F32B53 /* Assets.xcassets */; };
 		C115AC5F1CF90EE900F32B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C115AC5D1CF90EE900F32B53 /* LaunchScreen.storyboard */; };
@@ -21,8 +21,8 @@
 		C115AC4D1CF90EE900F32B53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C115AC4F1CF90EE900F32B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C115AC501CF90EE900F32B53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C115AC521CF90EE900F32B53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C115AC531CF90EE900F32B53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C115AC521CF90EE900F32B53 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		C115AC531CF90EE900F32B53 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		C115AC561CF90EE900F32B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C115AC591CF90EE900F32B53 /* My_Firts_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Firts_Project.xcdatamodel; sourceTree = "<group>"; };
 		C115AC5B1CF90EE900F32B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C10BCC461CFBD03D00D5F4A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C115AC4F1CF90EE900F32B53 /* AppDelegate.h */,
+				C115AC501CF90EE900F32B53 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C10BCC471CFBD04700D5F4A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C115AC521CF90EE900F32B53 /* Start.h */,
+				C115AC531CF90EE900F32B53 /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		C115AC401CF90EE900F32B53 = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +78,8 @@
 		C115AC4B1CF90EE900F32B53 /* My Firts Project */ = {
 			isa = PBXGroup;
 			children = (
-				C115AC4F1CF90EE900F32B53 /* AppDelegate.h */,
-				C115AC501CF90EE900F32B53 /* AppDelegate.m */,
-				C115AC521CF90EE900F32B53 /* ViewController.h */,
-				C115AC531CF90EE900F32B53 /* ViewController.m */,
+				C10BCC471CFBD04700D5F4A3 /* Controllers */,
+				C10BCC461CFBD03D00D5F4A3 /* Main */,
 				C115AC551CF90EE900F32B53 /* Main.storyboard */,
 				C115AC5B1CF90EE900F32B53 /* Assets.xcassets */,
 				C115AC5D1CF90EE900F32B53 /* LaunchScreen.storyboard */,
@@ -108,6 +124,9 @@
 		C115AC411CF90EE900F32B53 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					label,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Fer;
 				TargetAttributes = {
@@ -153,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C115AC5A1CF90EE900F32B53 /* My_Firts_Project.xcdatamodeld in Sources */,
-				C115AC541CF90EE900F32B53 /* ViewController.m in Sources */,
+				C115AC541CF90EE900F32B53 /* Start.m in Sources */,
 				C115AC511CF90EE900F32B53 /* AppDelegate.m in Sources */,
 				C115AC4E1CF90EE900F32B53 /* main.m in Sources */,
 			);
@@ -304,6 +323,7 @@
 				C115AC651CF90EE900F32B53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
